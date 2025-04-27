@@ -147,7 +147,8 @@
           body: JSON.stringify({
             inputs: {},
             query: message,
-            response_mode: 'blocking'
+            response_mode: 'blocking',
+            user: "user-" + Date.now()
           })
         });
 
